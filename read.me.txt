@@ -1,0 +1,47 @@
+Aizguvu kodu no https://www.w3schools.com/
+Tieši par variables, strings, data types, C# While Loop.( Šeit skatījos kāda tipa objekts ir krāsas un vai tās var novietot pie string vai int, utt..)
+
+ {
+            string[] obj = new string[11] { "Augs", "Dzīvnieks", "Puķe", "Ēdiens", "Dzēriens", "Cilvēks", "Priekšmets ", "Dabas parādība", "Rotaļlieta", "Apģērbs", "Figūras" };
+            label5.Text = obj[rand.Next(11)];
+            label5.Visible = true;
+        }
+
+
+        private void butizvelef_Click(object sender, EventArgs e)
+        {
+            string[] fons = new string[11] { "Okeāns", "Savanna", "Džungļi", "Upe", "Istaba", "Mežs", "Debesis", "Pļava", "Puķu lauks", "Zvaigznes", "Dārzs" };
+            label6.Text = fons[rand.Next(11)];
+            label6.Visible = true;
+        }
+
+
+
+        private void butizveles_Click(object sender, EventArgs e)
+        {
+            string[] stils = new string[11] { "Sirreālisms", "Reālisms", "Kubisms", "Postimpressionisms", "Fovisms", "Ekspresionisms", "Dadaisms", "Simbolisms", "Grafiskais", "Skice", "Baroks" };
+            label7.Text = stils[rand.Next(11)];
+            label7.Visible = true;
+        }
+-Šie ir kodi kur izmantoju string.
+
+Aizguvu kodu arī no jūsu video https://www.youtube.com/watch?v=NzHf3IHBEgQ ( "Spēle 15"2.daļa)
+No video aizguvu   
+{
+            this.Hide();
+            Form2 krasa = new Form2();
+            krasa.Show();
+        }
+ 
+            Color[] colors = new Color[8]
+panelviens.BackColor = colors[rand.Next(8)];  (Tieši new Color[8] un [rand.Next(8)];)
+
+/Lielāko koda daļu es skatījos kā jūs rakstāt un tad pielāgoju priekš savas programmas. Un kods kas nestrādāja priekš manas programmas tika mainīts uz kodu no interneta resursiem.
+
+Vēl izmantoju https://stackoverflow.com/questions/29198073/get-random-color 
+Bet netiku izmantot kodu no turienes, jo tas man nestrādāja. Praktiski sanāca izmantot tikai salīdzināšanai.
+
+Un priekš Do....While es izmantoju C# While Loop no W3schools un No jūsu video  int x = rand.Next(8);
+            int y,z;.
+
+Biju arī citās saitēs, bet nekur nevarēju atrast kodu kāds man bija nepieciešams.
